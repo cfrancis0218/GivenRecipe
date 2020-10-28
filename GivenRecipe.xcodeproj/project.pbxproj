@@ -13,6 +13,7 @@
 		5342E8A425014BC200F12E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5342E8A225014BC200F12E47 /* Main.storyboard */; };
 		5342E8A625014BC300F12E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5342E8A525014BC300F12E47 /* Assets.xcassets */; };
 		5342E8A925014BC300F12E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5342E8A725014BC300F12E47 /* LaunchScreen.storyboard */; };
+		5342E8F12501913800F12E47 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342E8F02501913800F12E47 /* RecipeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5342E8A525014BC300F12E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5342E8A825014BC300F12E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5342E8AA25014BC300F12E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5342E8F02501913800F12E47 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		5342E89B25014BC200F12E47 /* GivenRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				53C7338B2502B00800E658C7 /* RecipeModel */,
 				5342E89C25014BC200F12E47 /* AppDelegate.swift */,
 				5342E89E25014BC200F12E47 /* SceneDelegate.swift */,
 				5342E8A025014BC200F12E47 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				5342E8AA25014BC300F12E47 /* Info.plist */,
 			);
 			path = GivenRecipe;
+			sourceTree = "<group>";
+		};
+		53C7338B2502B00800E658C7 /* RecipeModel */ = {
+			isa = PBXGroup;
+			children = (
+				5342E8F02501913800F12E47 /* RecipeCollectionViewCell.swift */,
+			);
+			path = RecipeModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5342E8F12501913800F12E47 /* RecipeCollectionViewCell.swift in Sources */,
 				5342E8A125014BC200F12E47 /* ViewController.swift in Sources */,
 				5342E89D25014BC200F12E47 /* AppDelegate.swift in Sources */,
 				5342E89F25014BC200F12E47 /* SceneDelegate.swift in Sources */,
